@@ -14,5 +14,3 @@ AccountsUIWrapper = React.createClass({
     return <ul ref="container" className="nav navbar-nav navbar-right"></ul>;
   }
 });
-
-export default AccountsUIWrapper;

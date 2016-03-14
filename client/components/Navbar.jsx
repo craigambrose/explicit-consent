@@ -1,5 +1,3 @@
-import AccountsUIWrapper from './AccountsUIWrapper'
-
 Navbar = React.createClass({
   render() {
     return (
@@ -16,4 +14,3 @@ Navbar = React.createClass({
     );
   }
 });
-export default Navbar;

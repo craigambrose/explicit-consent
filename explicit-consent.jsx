@@ -10,6 +10,8 @@ if (Meteor.isClient) {
       <Router history={browserHistory}>
         <Route path="/" component={App}>
           <IndexRoute component={Chat} />
+          <Route path="/users" component={UserList} />
+          <Route path="/chat/:userId" component={Chat} />
           {/* ... */}
         </Route>
       </Router>
